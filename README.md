@@ -107,7 +107,8 @@ public Annotation[] getAnnotations(){}
 apt处理要素：AbstarctProcess、代码处理（javaPoet）、处理器注册（AutoService）、apt
 
 大致流程图：
-![](media/15241209521252/15252302734691.jpg)
+![](MyApplicationTestAPT/7E35D985-9B12-4C2D-9A07-AE4F92786D94.png)
+
 
 核心类：AbstractProcessor自定义注解处理器，必须腹泻process()方法，
 通常：
