@@ -209,7 +209,7 @@ public class Sample         // TypeElement
  
  表示的是java编程语言中的类型，比如：
  String name
- 在Element代表的是源代码上的元素(FIELD),TypeMirror代表的的是(DECLARED)Element对应Java编程语言中的类型
+ 在Element代表的是源代码上的元素字段(FIELD),TypeMirror代表的的是(DECLARED)Element对应Java编程语言中的类型
  
  通过asType获得TYpeMirror，后getKind()返回TypeKind枚举值
  
